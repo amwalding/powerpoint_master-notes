@@ -1,0 +1,43 @@
+' Modified version of code originally posted to
+' msnews.microsoft.com public newsgroups by
+' David Foster in May of 1999
+'
+' Further modified on 2/25/21 by Andrew Walding for Office 365
+' bug that removes the slide image from the Notes page.
+' See commented lines below.
+
+    Dim ctl As CommandBarControl
+    Dim oSl As Slide
+
+    ' 700 is the control ID for Layout
+    Set ctl = CommandBars.FindControl(Id:=700)
+    ActiveWindow.ViewType = ppViewNotesPage
+
+    If (ctl Is Nothing) Then
+        MsgBox "command not available"
+        Exit Sub
+    End If
+
+    For Each oSl In ActivePresentation.Slides
+
+        ' go to the current slide
+        ActiveWindow.View.GotoSlide (oSl.SlideIndex)
+        DoEvents
+
+        ' Bring up the dialog
+        ctl.Execute
+        DoEvents
+
+        ' Send the r keystroke to reapply master
+        SendKeys "%r{enter}"
+        DoEvents
+        
+        ' If you notice that Powerpoint removes the slide image
+		' after running this macro, the comment out the SendKeys and DoEvents above
+		' uncomment the SendKeys and DoEvents lines below and running
+		' the macro again.
+		' Reinsert the slide image
+        'SendKeys "%s{enter}"
+        'DoEvents
+
+    Next
