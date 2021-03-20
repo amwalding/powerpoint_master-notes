@@ -6,6 +6,7 @@ After years and years of wondering what on earth is going on at Microsoft that t
 Check out the video of this:
 https://youtu.be/wEGtnN-t0cU
 
+You can view the article on my web site: https://www.cellstream.com/reference-reading/tipsandtricks/17-apply-master-to-all-notes-pages-in-ms-powerpoint
 
 Now, in order to implement this, you must have the "Developer Tab".  By default, this tab is not present. 
 
