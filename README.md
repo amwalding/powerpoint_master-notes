@@ -34,4 +34,8 @@ Now seriously, how hard would it be for Microsoft to incorporate this as an opti
 
 Enjoy!
 
-I hope you find this article and its content helpful.  Comments are welcomed below.  If you would like to see more articles like this, please support us by clicking the patron link where you will receive free bonus access to courses and more, or simply buying us a cup of coffee!, and all comments are welcome!
+I hope you find this article and its content helpful.  
+
+Did I just save you time and $$$ - buy me a coffee: https://www.buymeacoffee.com/awalding or become a patron: https://www.patreon.com/bePatron?u=22427713&redirect_uri=https%3A%2F%2Fwww.cellstream.com%2Fcomponent%2Ftags%2Ftag%2Fwireshark&utm_medium=widget
+
+Thanks for supporting my work.
