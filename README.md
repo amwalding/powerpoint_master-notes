@@ -1,20 +1,19 @@
-# powerpoint_master-notes
-Epiphany number 3,812!!
+# PowerPoint Master Notes
+Epiphany number 3,812!!:cloud_with_lightning:
 
-After years and years of wondering what on earth is going on at Microsoft that they have done no feature changes of significance to PowerPoint, and frustration whenever I change the Notes Master, that I must go to every slide, one by one, and right click on the notes page, click on Notes Layout, select Reapply Master, then click OK (that is 4 clicks per slide!) a solution has landed!!!
+After years and years of wondering what on :earth_americas: is going on at Microsoft that they have done no feature changes of significance to PowerPoint, and frustration :angry: whenever I change the Notes Master, that I must go to every slide, one by one, and right click on the notes page, click on Notes Layout, select Reapply Master, then click OK (that is 4 clicks per slide!) a solution has landed!!!
 
 Check out the video of this:
 https://youtu.be/wEGtnN-t0cU
 
-You can view the article on my web site: https://www.cellstream.com/reference-reading/tipsandtricks/17-apply-master-to-all-notes-pages-in-ms-powerpoint
+You can view the article on my web site: https://www.cellstream.com/2000/04/11/apply-master-to-all-notes-pages-in-ms-powerpoint/
 
+## How Its Done
 Now, in order to implement this, you must have the "Developer Tab".  By default, this tab is not present. 
 
 So the first step is to enable this tab. 
 
-Select FILE, then select Options, and a dialogue box will pop up.  In that box, select "Customize Ribbon:
-
-pptdeveloper
+Select FILE, then select Options, and a dialogue box will pop up.  In that box, select "Customize Ribbon: pptdeveloper
 
 You will see on the right (highlighted) that you need to select the Developer box.  Then click OK.
 
