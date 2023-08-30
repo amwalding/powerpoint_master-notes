@@ -1,3 +1,4 @@
+![Visitor Count](https://profile-counter.glitch.me/amwalding3/count.svg)
 # PowerPoint Master Notes
 Epiphany number 3,812!!:cloud_with_lightning:
 
